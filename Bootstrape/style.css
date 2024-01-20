@@ -1,0 +1,204 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'poppins', sans-serif;
+    font-size: ;
+    line-height: 1.6;
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff; /* Set your desired background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for a better visual */
+  }
+  .mx-auto {
+    margin-right:unset !important;
+
+  }
+  
+  button{
+    position: relative;
+    width: 120px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 5px 5px;
+  margin:20px 10px ;
+  font-weight: bold;
+  border-radius: 10px solid white ;
+  overflow: hidden;
+  }
+ 
+  
+  
+  .header__heading {
+    margin: 0;
+  }
+  
+  .main-menu {
+    text-align: center;
+  }
+  .main-menu__nav li
+  
+  .main-menu__nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .ul li{
+    display: flex;
+    font-weight: bolder;
+    font-size: 70px;
+
+  }
+  
+  .main-menu__link {
+    text-decoration: none;
+    color: #333; /* Set your desired text color */
+    font-weight: bold;
+  }
+ li a {
+  text-decoration: none;
+  margin-left:80px ;
+  font-size:35px !important;
+  
+ }
+@media (min-width:992px)
+ {
+.navbar-expasnd-lg .navbar-item .nav-link{
+  padding-right:1.5rem !important ;
+  padding-left:1.5rem !important ;
+ } 
+ 
+  
+  /* Search styles */
+  .header__search {
+    margin-left: auto;
+  }
+
+  
+  .search-modal__form {
+    position: relative;
+  }
+  
+  .search__input {
+    width: 200px;
+    padding: 10px;
+  }
+  
+  .search__button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Slideshow styles */
+  .slideshow-caption {
+    background-color: rgba(0, 0, 0, 0); /* Set your desired background color */
+  }
+  
+  .slideshow-caption__btn {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #1cc95d;
+    font-size: 14px;
+    padding: 20px 60px;
+  }
+  
+  /* Carousel styles */
+  .carousel-img-size {
+    
+    height: 88vh !important;
+  }
+  @media (maX-width:768px)
+
+ .carousel-item {
+   height:88vh !important ;
+ }
+ .carousel-item img{
+   width: 100%;
+   height: 100%;object-fit:fill ;
+ }
+ #section-tittle{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+ }
+ #section-tittle span{
+  border-bottom: 2px dashed blue;
+ }
+ 
+ #section-1{
+  text-align: center;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+ }
+
+ /* card designing */
+ #section-title sapn{
+border-bottom: 2px dashed blue;
+ }
+ .card{
+  width: 16.1rem !important;
+  }
+  .card-header{
+    width:16rem !important;
+    height: 16rem !important;
+  }
+ .card-header img, #large-img img,#gallery div img{
+  width:100% ;height:100%;object-fit: fill;
+ }
+.card-header {
+padding: 0!important;
+}
+.card-header img{
+  transition: transform 1s;
+}
+.card-header img:hover{
+  transform: scale(1.2);
+}
+/* imges start */
+#large-img{
+  width: 13rem;
+  height: 13rem;
+}
+
+#large-img img{
+  border-radius: 5px;
+}
+#gallery{
+  display: flex;
+}
+#gallery div{
+width: 50px;
+height: 40px;
+margin:4px ;
+}
+#gallery div img{
+  transition: transform 1s;
+}
+#gallery div img:hover{
+  height: 12rem;
+  width: 12rem;
+  transform:translateY(-50%)
+}
+img{
+  cursor: pointer;
+}
+
+
+
+  /* Bootstrap styles */
+  /* Include your Bootstrap styles here if needed */
+  
+  /* Add your custom styles below this line */
+  
